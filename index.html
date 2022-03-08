@@ -1,1 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <title>Herosky Petshop And Grooming Center</title>
 
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+  
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+		<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+		<header>
+            <div id="menu-bar" class="fas fa-bars"></div>
+
+            <a href="#" class="logo"><span>HERO</span>SKY</a>   
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#book">book</a>
+                <a href="#packages">packages</a>
+                <a href="#services">services</a>
+                <a href="#gallery">gallery</a>
+                <a href="#review">review</a>
+                <a href="#contact">contact</a>
+            </nav>
+
+            <div class="icons">
+                <i class="fas fa-search" id="search-btn"></i>
+                <i class="fas fa-user" id="login-btn"></i>
+            </div>
+
+            <form action="" class="search-bar-container">
+                <input type="search" id="search-bar" placeholder="search here....">
+                <label for="search-bar"  class="fas fa-search"></label>
+            </form>
+        </header>
+
+<div class="login-form-container">
+    <i class="fas fa-times" id="form-close"></i>
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">Remember me</label>
+        <p>forgot password? <a href="#">click here</a></p>
+        <p>don't have account? <a href="#">register now</a></p>
+    </form>
+</div>
+
+<section class="home" id="home">
+    <div class="content">
+        <h3>Welcome to HeroSky Petshop And Grooming</h3>
+        <p>Please enjoy our offers</p>
+        <a href="#" class="btn">More Information</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-scr="1.mp4"></span>
+        <span class="vid-btn" data-scr="2.mp4"></span>
+        <span class="vid-btn" data-scr="3.mp4"></span>
+        <span class="vid-btn" data-scr="4.mp4"></span>
+        <span class="vid-btn" data-scr="5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+<section class="book" id="book">
+<h1 class="heading">
+    <span>b</span>
+    <span>o</span>
+    <span>o</span>
+    <span>k</span>
+    <span class="space"></span>
+    <span>n</span>
+    <span>o</span>
+    <span>w</span>
+</h1>
+
+<div class="row">
+    <div class="img">
+        <img src="01.jpg" alt="">
+    </div>
+    <form action="">
+        <div class="inputBox">
+            <h3>name of owner</h3>
+            <input type="text" placeholder="name">
+        </div>
+        <div class="inputBox">
+            <h3>What Kind of Pet</h3>
+            <input type="text" placeholder="type">
+        </div>
+        <div class="inputBox">
+            <h3>how many</h3>
+            <input type="number" placeholder="number of pets">
+        </div>
+        <div class="inputBox">
+            <h3>appointment date</h3>
+            <input type="date">
+        </div>
+        <input type="submit" class="btn" value="book now">
+    </form>
+</div>
+</section>
+
+<section class="packages" id="packages">
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+            <div class="box">
+            <img src="cat1.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-check-circle"></i> PACKAGE 1 </h3>
+                <p>Hair Cut + Bath</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> PHP200 <span>PHP300</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+            <div class="box">
+            <img src="cat2.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-check-circle"></i> PACKAGE 2 </h3>
+                <p>Hair Cut + Bath + Nail Cut</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> PHP300<span>PHP350</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+            <div class="box">
+            <img src="cat3.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-check-circle"></i> PACKAGE 3 </h3>
+                <p>Hair Cut + Nail Cut</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> PHP200<span>PHP250</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+            <div class="box">
+            <img src="dog1.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-check-circle"></i> PACKAGE 4 </h3>
+                <p>Hair Cut + Nail Cut + Bath + Ear Clean</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> PHP300<span>PHP400</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+            <div class="box">
+            <img src="dog2.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-check-circle"></i> PACKAGE 5 </h3>
+                <p>Hair Cut + Bath + Ear Clean</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> PHP300<span>PHP400</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>    
+
+            <div class="box">
+            <img src="dog3.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-check-circle"></i> PACKAGE 6 </h3>
+                <p>Hair Cut + Nail Cut + Bath + Ear Clean (Free Dog Food)</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> PHP450<span>PHP500</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="services" id="services">
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-bookmark"></i>
+                <h3>Dentistry</h3>
+                <p>Your pet’s oral health is important to its overall health. 
+                We provide comprehensive dental care including high quality sedated cleanings and extractions.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bookmark"></i>
+                <h3>Wellness</h3>
+                <p>Our extensive menu of wellness care services offers a strong foundation for your pet’s 
+                    lifelong care and includes vaccinations, microchipping, and fecal exams.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bookmark"></i>
+                <h3>Dermarology</h3>
+                <p>Our dermatological diagnostic tools direct us 
+                    to an effective course of treatment tailored to your pet’s unique needs.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bookmark"></i>
+                <h3>Chronic Disease Pain Management</h3>
+                <p>These services are designed to promote healing and to
+                    provide long lasting relief for many conditions including arthritis, allergies, and diabetes.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bookmark"></i>
+                <h3>Urgent Care</h3>
+                <p>We are able to provide extensive sick patient care and in-home hospitalization.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bookmark"></i>
+                <h3>End of Life Care</h3>
+                <p>Our end of life care and euthanasia services allow you 
+                    and your pet to spend your final time together in the peace and comfort of your own home.</p>
+        </div>
+    </div>
+</section>
+
+<section class="gallery" id="gallery">
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+<div class="box-container">
+    <div class="box">
+        <img src="pic1.jpg" alt="">
+        <div class="content">
+            <h3>HeroSky Photos</h3>
+            <p>“An animal’s eyes have the power to speak a great language.” - Martin Buber, German Philosopher</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="pic2.jpg" alt="">
+        <div class="content">
+            <h3>HeroSky Photos</h3>
+            <p>“Animals are such agreeable friends—they ask no questions; they pass no criticisms.” George Eliot, British Author</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="pic3.jpg" alt="">
+        <div class="content">
+            <h3>HeroSky Photos</h3>
+            <p>“If having a soul means being able to feel love and loyalty and gratitude, then animals are better off than a lot of humans.” James Herriot, British Writer</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="pic4.jpg" alt="">
+        <div class="content">
+            <h3>HeroSky Photos</h3>
+            <p>“I think having an animal in your life makes you a better human.” Rachael Ray, American Television Personality</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="pic5.jpg" alt="">
+        <div class="content">
+            <h3>HeroSky Photos</h3>
+            <p>“Until one has loved an animal, a part of one’s soul remains unawakened.” Anatole France, French Poet</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="pic6.jpg" alt="">
+        <div class="content">
+            <h3>HeroSky Photos</h3>
+            <p>“Pets have more love and compassion in them than most humans.” Robert Wagner, American Actor</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="pic7.jpg" alt="">
+        <div class="content">
+            <h3>HeroSky Photos</h3>
+            <p>“Be kind to all pets and animals because they will be kind back to you.” Wesley Porter, American Author</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="pic8.jpg" alt="">
+        <div class="content">
+            <h3>HeroSky Photos</h3>
+            <p>“Pets reflect you like mirrors. When you are happy, you can see your dog smiling and when you are sad, your cat cries.” Munia Khan, Bangladeshi Poet</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="pic9.jpg" alt="">
+        <div class="content">
+            <h3>HeroSky Photos</h3>
+            <p>“Pets are humanizing. They remind us we have an obligation and responsibility to preserve and nurture and care for all life.” James Cromwell</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+</div>
+</section>
+
+
+<section class="review" id="review">
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>  
+    </h1>
+
+    <div class="swiper mySwiper review-slider">
+        <div classs="swiper-wrapper wrapper">
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="cute1.jpg" alt="">
+                    <h3>Samantha Reese</h3>
+                    <p>HeroSky has been such a good place for our family - a true blessing! This facility is very different from any other place we have been. 
+                    I have been taking my dog here for many years. They are always on time, very clean, extremely professional, and super loving!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>  
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">   
+                    <img src="cute2.jpg" alt="">
+                    <h3>Ryle Jace</h3>
+                    <p>Everyone is absolutely wonder. They have cared for our puppy since we moved to the area a few years ago.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="cute3.jpg" alt="">
+                    <h3>Larry Key</h3>
+                    <p>I took my cat to HeroSky for issues with her stomach, and she's doing great now.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="cute4.jpg" alt="">
+                    <h3>Perry Lou</h3>
+                    <p>Puppy Power!</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section class="contact" id="contact">
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>  
+        <span>t</span>  
+    </h1>
+
+    <div class="row">
+        <div class="img">
+            <img src="contact.jpg" alt="">
+        </div>
+        <form action="">
+             <div class="inputBox">
+                 <input type="text" placeholder="name">
+                 <input type="email" placeholder="email">
+             </div>
+             <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+    </div>
+</section>
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>about us</h3>
+            <p>HeroSky Petshop & Grooming</p>
+        </div>
+
+        <div class="box">
+            <h3>branch locations</h3>
+           <a href="#">manila</a>
+           <a href="#">cebu</a>
+           <a href="#">ilocos</a>
+           <a href="#">davao</a>
+           <a href="#">baguio</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+           <a href="#">home</a>
+           <a href="#">book</a>
+           <a href="#">package</a>
+           <a href="#">service</a>
+           <a href="#">gallery</a>
+           <a href="#">review</a>
+           <a href="#">contact</a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+           <a href="#">facebook</a>
+           <a href="#">instagram</a>
+           <a href="#">twitter</a>
+           <a href="#">likedin</a>
+        </div>
+    </div>
+    <h1 class="credit"> created by <span>SBIT-2E GROUP 1</span> | all rights reserved </h1>
+</section>
+
+    
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>	 
+    <script src="main.js"></script>
+</body>
+</html>
